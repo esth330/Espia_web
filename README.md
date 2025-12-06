@@ -1,1 +1,31 @@
-# Espia_web
+[index.html](https://github.com/user-attachments/files/23973514/index.html)
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Agente Cipher</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Agente, cifre su reporte secreto 🕵️ </h1>
+
+  <div class="panel">
+    <label>Mensaje:</label>
+    <p></p>
+    <textarea id="inputText"></textarea>
+   <p></p>
+    <label>Desplazamiento (offset):</label>
+    <p></p>
+    <input type="number" id="offset" value="3">
+    <p></p>
+    <button id="btnCifrar">🔒 Cifrar</button>
+    <button id="btnDescifrar">🔍 Descifrar</button>
+  <p></p>
+    <h2>Resultado:</h2>
+    <textarea id="outputText" readonly></textarea>
+  </div>
+
+<script src="cipher.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
